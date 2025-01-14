@@ -4,8 +4,14 @@
 # Exempel: def is_odd(x: int) -> bool:
 # Förklaring: Funktionens namn är is_odd och tar en parameter x av datatypen int. Funktionen returnerar en bool.
 
-def is_odd(number: int) -> bool:
+def is_odd(x: int) -> bool:
     """
-    Skriv beskrivning här.
+    Returnerar True om x är udda, annars False.
+    
+    Parametrar:
+    x (int): Talet som ska kontrolleras.
+    
+    Returvärde:
+    bool: True om x är udda, annars False.
     """
-    return number % 2 == 1
+    return x % 2 == 1
