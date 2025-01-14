@@ -15,4 +15,4 @@ def word_count(text: str) -> int:
     words = text.split()
     return len(words)  # Returnera antalet ord
 
-print(word_count("Detta är en enkel testtext."))  # Output: 5
+print(word_count("Detta är en enkel testtext."))
