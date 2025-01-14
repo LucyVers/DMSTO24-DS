@@ -19,5 +19,3 @@ def count_letters(string: str) -> dict:
                 letter_count[char] = 1
     
     return letter_count
-
-print(count_letters("Hello World!"))  # Output: {'h': 1, 'e': 1, 'l': 3, 'o': 2, 'w': 1, 'r': 1, 'd': 1}
