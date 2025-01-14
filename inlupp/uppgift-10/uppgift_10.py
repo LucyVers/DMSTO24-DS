@@ -13,5 +13,3 @@ def celsius_to_fahrenheit(celsius: float) -> float:
     """
     fahrenheit = (celsius * 9/5) + 32
     return fahrenheit
-
-print(celsius_to_fahrenheit(100))   # Output: 212.0
