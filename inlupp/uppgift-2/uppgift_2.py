@@ -1,14 +1,23 @@
 # Uppgift 2
 # Skapa en funktion sum_list(numbers) som returnerar summan av alla siffror i listan.
 
-def sum_list(numbers: list) -> int:
+from typing import List
+
+def sum_list(numbers: List[int]) -> int:
     """
-    Jag returnerar summan av alla siffror i listan.
+    Returnerar summan av alla siffror i listan.
+    
+    Parametrar:
+    numbers (List[int]): En lista med heltal.
+    
+    Returvärde:
+    int: Summan av siffrorna i listan.
     """
     summan = 0
     for num in numbers:
-        summan = summan + num
+        summan += num  # Summera varje nummer
     return summan
 
-print(sum_list([-1, -2, -3]))
-# sum_list([1, 2, 3])
+# Testa funktionen
+#print(sum_list([-1, -2, -3]))  # Output: -6
+print(sum_list([1, 2, 3]))      # Output: 6
